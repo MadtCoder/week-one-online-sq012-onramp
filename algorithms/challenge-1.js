@@ -8,12 +8,7 @@ returns the second
 
 function secondLargest(arr) {
 
-  const maxNumber = Math.max(...arr);
-
-  const secondNum = arr.filter(el => { return el < maxNumber;} );
-
- return Math.max(...secondNum);
-
+  
  
 }
 
